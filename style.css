@@ -1,0 +1,107 @@
+/* Body Default Values */
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    width: auto;
+    height: auto;
+}
+
+
+/* Box Effect */
+.box{
+    color: white;
+    font-weight: bolder;
+    font-size: auto;
+    padding-top: 10px;
+    text-align: center;
+    height: 480px;
+    width: 470px;
+    border: 1px solid red;
+    margin: 20vh auto;
+    border-radius: 25px;
+    box-shadow:
+        10px 0 100px orangered;
+}
+
+
+/* It'll Change Input Type - Text Effect */
+input[type=text]{
+    width: 65%;
+    padding: 10px;
+    display: inline-block;
+    border: 2px solid slateblue;
+    border-radius: 15px;
+    height: 40px;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-top: ;
+}
+
+
+/* Submit Type Property Effects */
+#submit{
+    background-color: black;
+    border-radius: 15px;
+    color: red;
+    margin-top: 5px;
+    height: 35px;
+    width: 150px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+
+/* It'll Change Hover Effect After Mouser Hover */
+input:hover[type="submit"] {
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+/* Effect Set For Submit Type / Button */
+input:active[type="submit"]{
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+/* Placeholder Color Otherwise It'll Remain Default */
+::placeholder {
+    color: red;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    opacity: 1; /* Firefox */
+}
+}
+
+
+/* Heading Color Otherwise It'll Remain Default */
+h4{
+    color: red;
+}
+
+
+/* To make space between label and input box */
+label{ 
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+
+
+/* It'll Make Webpage Responsive */
+@media only screen and (min-width: 375px) and (max-width: 812px) {
+    .box{
+        box-sizing: border-box; 
+        width: 80%;
+        padding-left: 10%
+        padding-right: 10%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
